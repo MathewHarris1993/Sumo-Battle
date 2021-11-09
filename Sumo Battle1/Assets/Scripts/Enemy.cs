@@ -27,9 +27,14 @@ public class Enemy : MonoBehaviour
         //enemy vector
         Vector3 lookDirection = (player.transform.position - transform.position).normalized;
 
-
+        //use vector to chase player
         enemyRb.AddForce(lookDirection * enemySpeed);
 
+        if(transform.position.y < -10)
+        {
+            Destroy(gameObject);
+
+        }
 
     }
 }
