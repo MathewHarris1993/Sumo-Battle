@@ -31,7 +31,7 @@ public class PlayerController : MonoBehaviour
 
     }
 
-
+   
     //power up 
     private void OnTriggerEnter(Collider Other)
     {
