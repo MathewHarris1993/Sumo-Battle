@@ -6,7 +6,7 @@ public class RotateCamera : MonoBehaviour
 {
 
     //rotate variable
-    public float roatationSpeed = 50;
+    public float roatationSpeed = 25;
 
     // Start is called before the first frame update
     void Start()
